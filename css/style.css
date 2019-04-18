@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(-20deg, #FC6076 0%, #FF9A44 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Varela Round", sans-serif !important;
+    color: white;
+}
+
+.my-image{
+    margin: 10px 0px;
+    height: 12em;
+    width: 12em;
+    border: 3px solid #FFFFFF;
+}
+
+.my-name{
+    font-size: 23px;
+    margin: 10px 0px;
+}
+
+.my-social{
+    width: 100px;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.my-social:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.my-social a{
+    text-decoration: none!important;
+    color: inherit;
+}
+
+.my-social:hover{
+    cursor: pointer;
+}
+
+.my-section-title{
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.my-section-title:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.my-section-content{
+    padding: 10px;
+    color: #000000;
+}
+
+.my-section-content-image{
+    height: 4.5em;
+    width: 4.5em;
+    border: 2px solid #95A5A6;
+}
+
+.my-section-content-first{
+    font-size: 20px;
+}
+
+.my-section-content-second, .my-section-content-third{
+    font-size: 16px;
+}
+
+.my-section-content-third{
+    color: #95A5A6;
+}
+
+.my-card {
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+
+.my-footer{
+    border-top: 2px solid #FFFFFF;
+    padding: 10px 0px;
+}
+
+.my-section-content-element{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-section-content-pdf{
+    text-decoration: none!important;
+    color: #95A5A6;
+    background: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 2px solid #95A5A6;
+    transition: 0.3s;
+}
+
+.my-section-content-pdf:hover{
+    color: #95A5A6;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.my-section-title, .my-section-content, .my-footer{
+    margin: 10px;
+}
+
+/**/
+@media (max-width: 575.98px) {
+}
