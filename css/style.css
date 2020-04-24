@@ -5,31 +5,32 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: "Varela Round", sans-serif !important;
-    color: white;
+    font-family: "Cabin", sans-serif !important;
+    color: #34495e;
+    font-size: 18px;
 }
 
 .my-image{
     margin: 10px 0px;
-    height: 12em;
-    width: 12em;
-    border: 3px solid #FFFFFF;
+    height: 10em;
+    width: 10em;
+    border: 8px solid #34495e;
 }
 
 .my-name{
-    font-size: 23px;
+    font-family: "Fredoka One", sans-serif !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+.my-position{
+    color: #f39c12;
     margin: 10px 0px;
+    font-weight: bold;
 }
 
 .my-social{
     width: 100px;
-    display: block;
-    margin: auto;
-    font-size: 18px;
-    color: #FFFFFF;
     transition: 0.3s;
 }
 
@@ -46,91 +47,26 @@ body {
     cursor: pointer;
 }
 
+.my-hr {
+  border: 4px solid #34495e;
+  border-radius: 5px;
+}
+
 .my-section-title{
-    display: inline-block;
-    padding: 5px 15px;
+    font-family: "Fredoka One", sans-serif !important;
     font-weight: bold;
-    border: 2px solid #FFFFFF;
-    border-radius: 3px;
-    transition: 0.3s;
-}
-
-.my-section-title:hover{
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.my-section-content{
-    padding: 10px;
-    color: #000000;
+    font-size: 20px;
 }
 
 .my-section-content-image{
-    height: 4.5em;
-    width: 4.5em;
-    border: 2px solid #95A5A6;
+    height: 3.5em;
+    width: 3.5em;
 }
 
-.my-section-content-first{
-    font-size: 20px;
+.my-section-content-title{
+    font-weight: bold;
 }
 
-.my-section-content-second, .my-section-content-third{
-    font-size: 16px;
-}
-
-.my-section-content-third{
-    color: #95A5A6;
-}
-
-.my-card {
-	border-radius: 3px;
-	background-color: #FFFFFF;
-}
-
-.my-footer{
-    border-top: 2px solid #FFFFFF;
-    padding: 10px 0px;
-}
-
-.my-section-content-element{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.my-section-content-pdf{
-    text-decoration: none!important;
-    color: #95A5A6;
-    background: none;
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 3px;
-    border: 2px solid #95A5A6;
-    transition: 0.3s;
-}
-
-.my-section-content-pdf:hover{
-    color: #95A5A6;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.05);
-}
-
-.my-section-title, .my-section-content, .my-footer{
-    margin: 10px;
-}
-
-/**/
-@media (max-width: 575.98px) {
-   .my-section-title, .my-section-content, .my-footer{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .my-section-content-pdf{
-        font-size: 18px;
-    }
-
-    .my-section-content-image{
-        height: 4em;
-        width: 4em;
-    }
+.my-secton-content-period{
+    color: #bdc3c7;
 }
